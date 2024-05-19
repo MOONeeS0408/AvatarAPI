@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Avatar Characters</string>
+    <string name="affiliation">Affiliation: %1$s </string>
+    <string name="gender">Gender: %1$s </string>
+    <string name="profession">Profession: %1$s </string>
+    <string name="position">Position: %1$s </string>
+    <string name="allies">Allies: %1$s </string>
+    <string name="enemies">Enemies: %1$s </string>
+</resources>
