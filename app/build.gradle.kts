@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.videogames"
+    namespace = "com.example.avatarapi"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.videogames"
+        applicationId = "com.example.avatarapi"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

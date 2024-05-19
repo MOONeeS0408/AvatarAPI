@@ -6,4 +6,13 @@
     <string name="position">Position: %1$s </string>
     <string name="allies">Allies: %1$s </string>
     <string name="enemies">Enemies: %1$s </string>
+    <string name="Version">Version 1.0 </string>
+    <string name="unknown">Unknown</string>
+    <string name="nAvailable">Not available</string>
+    <string name="error_msg">Error linking data</string>
+    <string name="nAllies">Unknown allies</string>
+    <string name="disconnection">No connection available</string>
+    <string name="invalid_id">Invalid id</string>
+    <string name="error_server">Server error</string>
+    <string name="error_avatar">Error getting character</string>
 </resources>

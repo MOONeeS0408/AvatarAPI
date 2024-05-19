@@ -1,4 +1,4 @@
-package com.example.videogames
+package com.example.avatarapi
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

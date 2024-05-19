@@ -38,7 +38,7 @@
         tools:src="@mipmap/ic_launcher" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/tvAvName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/avatar_airbender"
@@ -53,13 +53,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.333"
-        tools:text="Title" />
+        tools:text="Name" />
 
     <TextView
-        android:id="@+id/tvAllies"
+        android:id="@+id/tvAvAllies"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tvGender"
+        android:layout_above="@+id/tvAvGender"
         android:fontFamily="@font/avatar_airbender"
         android:padding="5dp"
         android:paddingHorizontal="10dp"
@@ -71,13 +71,13 @@
         app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         app:layout_constraintVertical_bias="0.45"
-        tools:text="Aliados" />
+        tools:text="Character Allies" />
 
     <TextView
-        android:id="@+id/tvProffesion"
+        android:id="@+id/tvAvProffesion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tvPosition"
+        android:layout_above="@+id/tvAvPosition"
         android:fontFamily="@font/avatar_airbender"
         android:padding="5dp"
         android:paddingStart="20dp"
@@ -91,13 +91,13 @@
         app:layout_constraintTop_toTopOf="@+id/guideline13"
         app:layout_constraintVertical_bias="0.508"
 
-        tools:text="Profesion" />
+        tools:text="Character profession" />
 
     <TextView
-        android:id="@+id/tvEnemies"
+        android:id="@+id/tvAvEnemies"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tvGender"
+        android:layout_above="@+id/tvAvGender"
         android:fontFamily="@font/avatar_airbender"
         android:padding="5dp"
         android:paddingHorizontal="10dp"
@@ -109,13 +109,13 @@
         app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="@+id/guideline9"
         app:layout_constraintVertical_bias="0.487"
-        tools:text="Enemigos" />
+        tools:text="Character enemies" />
 
     <TextView
-        android:id="@+id/tvPosition"
+        android:id="@+id/tvAvPosition"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tvGender"
+        android:layout_above="@+id/tvAvGender"
         android:fontFamily="@font/avatar_airbender"
         android:padding="5dp"
         android:paddingStart="20dp"
@@ -127,13 +127,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
 
-
         app:layout_constraintTop_toTopOf="@+id/guideline15"
         app:layout_constraintVertical_bias="0.64"
-        tools:text="Posicion" />
+        tools:text="Character position" />
 
     <TextView
-        android:id="@+id/tvGender"
+        android:id="@+id/tvAvGender"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -146,7 +145,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        tools:text="Genero" />
+        tools:text="Character Gender" />
 
     <ProgressBar
         android:id="@+id/pbLoading"

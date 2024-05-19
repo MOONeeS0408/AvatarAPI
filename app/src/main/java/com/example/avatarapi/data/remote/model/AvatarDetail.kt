@@ -1,22 +1,19 @@
-package com.example.videogames.data.remote.model
+package com.example.avatarapi.data.remote.model
 
 import com.google.gson.annotations.SerializedName
 
-data class AvatarDetailDto(
+data class AvatarDetail(
     @SerializedName("name")
     var name: String,
-
-    @SerializedName("photoUrl")
-    var image: String,
 
     @SerializedName("allies")
     var allies: List<String>,
 
     @SerializedName("enemies")
-    var enemies: List<String>, //ArrayList<String> = arrayListOf(),
+    var enemies: List<String>,
 
-    @SerializedName("affiliation")
-    var affiliation: String,
+    @SerializedName("photoUrl")
+    var image: String,
 
     @SerializedName("position")
     var position: String,

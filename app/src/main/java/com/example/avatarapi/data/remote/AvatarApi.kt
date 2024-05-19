@@ -1,7 +1,7 @@
-package com.example.videogames.data.remote
+package com.example.avatarapi.data.remote
 
-import com.example.videogames.data.remote.model.AvatarDetailDto
-import com.example.videogames.data.remote.model.AvatarDto
+import com.example.avatarapi.data.remote.model.AvatarDetail
+import com.example.avatarapi.data.remote.model.AvatarDato
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -12,12 +12,12 @@ interface AvatarApi {
     @GET
     fun getAvatars(
         @Url url: String
-    ): Call<List<AvatarDto>>
+    ): Call<List<AvatarDato>>
 
 
     @GET("/api/v1/characters/{id}")
     fun getAvatarDetail(
         @Path("id") id: String,
-    ): Call<AvatarDetailDto>
+    ): Call<AvatarDetail>
 
 }

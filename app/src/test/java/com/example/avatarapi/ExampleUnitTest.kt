@@ -1,4 +1,4 @@
-package com.example.videogames
+package com.example.avatarapi
 
 import org.junit.Test
 
